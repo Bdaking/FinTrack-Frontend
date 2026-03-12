@@ -4,7 +4,7 @@ import AuthLayout from "../../components/layouts/AuthLayout";
 import Input from "../../components/Inputs/Input";
 import { validateEmail } from "../../utils/helper";
 import { API_PATHS } from "../../utils/apiPath";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 
 import { UserContext } from "../../context/userContext";
 
