@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Input from "../inputs/Input";
+import Input from "../Inputs/Input";
 import EmojiPickerPopup from "../EmojiPickerPopup";
 
 const AddIncomeForm = ({ onAddIncome }) => {
@@ -22,7 +22,7 @@ const AddIncomeForm = ({ onAddIncome }) => {
       />
       <div className="space-y-1">
         {" "}
-        {/* Consistent spacing between inputs */}
+        {/* Consistent spacing between Inputs */}
         <Input
           value={income.source}
           onChange={({ target }) => handleChange("source", target.value)}
