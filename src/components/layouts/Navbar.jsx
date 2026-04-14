@@ -19,7 +19,7 @@ const Navbar = ({ activeMenu }) => {
       </button>
 
       <h2 className="text-lg font-medium bg-linear-to-r from-teal-600 to-teal-500 bg-clip-text text-transparent">
-        Spendora
+        F
       </h2>
 
       {openSideMenu && (

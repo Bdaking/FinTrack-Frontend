@@ -13,6 +13,7 @@ import Income from "./pages/Dashboard/Income";
 import Expense from "./pages/Dashboard/Expense";
 import UserProvider from "./context/userContext";
 import { Toaster } from "react-hot-toast";
+import Notes from "./pages/Dashboard/Notes";
 const App = () => {
   return (
     <UserProvider>
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/dashboard" exact element={<Home />} />
             <Route path="/income" exact element={<Income />} />
             <Route path="/expense" exact element={<Expense />} />
+            <Route path="/notes" element={<Notes />} />
           </Routes>
         </Router>
         <Toaster

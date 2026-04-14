@@ -1,4 +1,6 @@
-export const BASE_URL = "http://localhost:5000";
+export const BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://fin-track-backend-xi.vercel.app";
 
 //utils/apiPaths.js
 
@@ -29,6 +31,10 @@ export const API_PATHS = {
   FEEDBACK: {
     SUBMIT: "/api/v1/feedback",
     GET_ALL: "/api/v1/feedback",
+  },
+  TEMPLATES: {
+    EXPENSE_SHEET: "/download/expense.xlsx",
+    INCOME_SHEET: "/download/income_details.xlsx",
   },
   // NEW: AI Path added correctly
   AI: {
