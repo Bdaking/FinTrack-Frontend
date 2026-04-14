@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPath";
 import { FaStar } from "react-icons/fa";
 import { toast } from "react-hot-toast";
